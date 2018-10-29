@@ -1,0 +1,11 @@
+{
+    "watches": [
+    
+    {
+      "type": "service",
+      "service": "<ARTIFACTORY SERVICE NAME>",
+      "handler": "$HOME/devopsplaygroundsg02-hashicorpconsulandsmashing/consul/checks/artifactory_check.sh"
+    }
+    
+    ]
+}

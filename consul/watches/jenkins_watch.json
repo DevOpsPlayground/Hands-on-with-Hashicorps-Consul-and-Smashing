@@ -1,0 +1,11 @@
+{
+    "watches": [
+    
+    {
+      "type": "service",
+      "service": "<JENKINS SERVICE NAME>",
+      "handler": "$HOME/devopsplaygroundsg02-hashicorpconsulandsmashing/consul/checks/jenkins_check.sh"
+    }
+    
+    ]
+}

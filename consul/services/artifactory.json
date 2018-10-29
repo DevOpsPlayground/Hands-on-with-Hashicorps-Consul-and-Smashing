@@ -1,0 +1,13 @@
+{
+    "service": {
+       "name": "Artifactory",
+       "tags": ["packages"],
+       "port": 8081,
+       "checks": [{
+         "id": "Web check on port 8081",
+         "name": "Artifactory on port 8081",
+         "http": "<ARTIFACTORY INSTANCE>",
+         "interval": "15s"
+       }]
+      }
+   }

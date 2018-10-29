@@ -1,0 +1,42 @@
+<script type='text/javascript'>
+ $(function() {
+   Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":2}]')
+ });
+ </script>
+
+<% content_for :title do %>PLAYGROUND MONITORING<% end %>
+<div class="gridster">
+  <ul>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="build" data-view="List" data-unordered="true" data-title="Build Service" data-addClass-warning="isServiceDown" data-moreinfo="No Issues Currently Reported"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="scm" data-view="List" data-unordered="true" data-title="SCM Service" data-addClass-warning="isServiceDown" data-moreinfo="No Issues Currently Reported"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="issue_tracking" data-view="List" data-unordered="true" data-title="Issue Tracking Service" data-addClass-warning="isServiceDown" data-moreinfo="No Issues Currently Reported"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Clock"></div>
+      <i class="fa fa-clock-o icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="wiki" data-view="List" data-unordered="true" data-title="Wiki Service" data-addClass-warning="isServiceDown" data-moreinfo="No Issues Currently Reported"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="repo" data-view="List" data-unordered="true" data-title="Repo Service" data-addClass-warning="isServiceDown" data-moreinfo="No Issues Currently Reported"></div>
+    </li>
+
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="misc" data-view="List" data-unordered="true" data-title="Misc" data-addClass-warning="isServiceDown" data-moreinfo="No Issues Currently Reported"></div>
+    </li>
+
+  </ul>
+</div>

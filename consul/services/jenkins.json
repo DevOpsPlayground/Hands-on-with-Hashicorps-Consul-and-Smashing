@@ -1,0 +1,13 @@
+{
+    "service": {
+       "name": "Jenkins",
+       "tags": ["ci"],
+       "port": 8080,
+       "checks": [{
+         "id": "Web check on port 8080",
+         "name": "Jenkins on port 8080",
+         "http": "<JENKINS INSTANCE>",
+         "interval": "15s"
+       }]
+      }
+   }
