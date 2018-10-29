@@ -4,7 +4,7 @@
     {
       "type": "service",
       "service": "<ARTIFACTORY SERVICE NAME>",
-      "handler": "$HOME/devopsplaygroundsg02-hashicorpconsulandsmashing/consul/checks/artifactory_check.sh"
+      "handler": "$HOME/devopsplayground-sg-02-hashicorpconsulandsmashing/consul/checks/artifactory_check.sh"
     }
     
     ]
