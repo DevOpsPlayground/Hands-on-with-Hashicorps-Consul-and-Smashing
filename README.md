@@ -507,7 +507,7 @@ ec2_ips = [
 ...
 ```
 
-Login with the credentials specified in '_setup/userdata.sh'
+Login with the credentials specified in '_setup/scripts/userdata.sh'
 
 Enjoy!
 
@@ -516,7 +516,7 @@ Enjoy!
 Navigate to the _setup directory and execute:
 
 ```
-$terraform destory
+$terraform destroy
 ```
 
 Simples!
